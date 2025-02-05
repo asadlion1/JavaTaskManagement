@@ -8,9 +8,9 @@ A simple and efficient **Task Management System** built in Java. This applicatio
 - **Task Management:** Update task details, mark tasks as completed, and delete tasks.
 - **Task Tracking:** 
   - Check if tasks are overdue.
-  - Track progress using task statuses (`PENDING`, `IN_PROGRESS`, `COMPLETED`).
-- **Priority Levels:** Categorize tasks into `HIGH`, `MEDIUM`, and `LOW` priority.
-- **Readable Output:** Human-readable representation of task details using `toString()`.
+  - Track progress using task statuses (PENDING, IN_PROGRESS, COMPLETED).
+- **Priority Levels:** Categorize tasks into HIGH, MEDIUM, and LOW priority.
+- **Readable Output:** Human-readable representation of task details using toString.
 
 ## Project Structure
 
