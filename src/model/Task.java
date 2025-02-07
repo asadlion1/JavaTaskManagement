@@ -2,6 +2,13 @@ package model;
 
 import java.time.LocalDate;
 
+/**
+ * @param
+ *
+ *
+ *
+ */
+
 public class Task {
     private int id; // Unique Identifier for the Tasl
     private String title; // Name of the task
@@ -134,6 +141,10 @@ public enum Status{
     @Override
     public int hashCode() {
         return Integer.hashcode(id);
+    }
+
+    public int hashCode() {
+
     }
 
 
