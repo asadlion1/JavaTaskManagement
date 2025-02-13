@@ -9,7 +9,7 @@ public class User {
     private String email;
     private String password;
     private List<Task> tasks;
-    public String name;
+
 
 //    This is the Default Constructor
     public User() {
@@ -62,6 +62,74 @@ public class User {
     public List<Task> getTask() {
         return tasks;
     }
+
+
+// This adds a task to the users task list
+    public void addTask(Task task) {
+        this.tasks.add(task);
+    }
+
+
+// This removes a task from the users task list
+    public boolean removeTask(Task task) {
+        return this.tasks.remove(task);
+    }
+
+// This finds the task by ID
+    public Task getTaskByID(int id) {
+        for (Task task : tasks ) {
+            if (task.getId() == id) {
+                return task;
+            }
+        }
+        return null;
+    }
+
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + userName + '\'' +
+                ", email='" + email + '\'' +
+                ", tasksCount=" + tasks.size() +
+                '}';
+    }
+
+
+//    This is for the equals method checking if objects are equal
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return id == user.id;
+    }
+
+//    This checks the hascode for the object
+    @Override
+    public int hashCode(){
+        return Integer.hashCode(id);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

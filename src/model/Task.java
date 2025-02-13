@@ -8,9 +8,8 @@ import java.time.LocalDate;
  *
  *
  */
-
 public class Task {
-    private int id; // Unique Identifier for the Tasl
+    private int id; // Unique Identifier for the Task
     private String title; // Name of the task
     private String description; // This is task details
     private LocalDate createdDate; // This is when the task was created
@@ -26,7 +25,7 @@ public class Task {
         LOW;
 }
 
-public enum Status{
+    public enum Status{
         PENDING,
         IN_PROGRESS,
         COMPLETED;
@@ -140,11 +139,7 @@ public enum Status{
 //    This is the hash code method
     @Override
     public int hashCode() {
-        return Integer.hashcode(id);
-    }
-
-    public int hashCode() {
-
+        return Integer.hashCode(id);
     }
 
 
