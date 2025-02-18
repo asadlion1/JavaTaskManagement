@@ -31,6 +31,7 @@ An advanced **Task Management System** built with **Java, MySQL, Spring Boot, JD
  **MySQL** - Database management 
 
 **Future Enhancements**
+
 🔹 **AI-powered task categorization**  
 🔹 **Mobile app integration**  
 🔹 **Team collaboration features**  
