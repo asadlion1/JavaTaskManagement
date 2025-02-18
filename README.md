@@ -1,37 +1,40 @@
-Java Task Management System
-An advanced Task Management System built using Java, MySQL, Spring Boot, JDBC, and JavaFX. Designed to help students efficiently track assignments, set deadlines, and monitor progress with automated features.
+**Java Task Management System**
 
-Overview
-This project is an evolving Java-based task management system that allows users to organize, manage, and analyze their tasks effectively. It features a clean and interactive UI built with JavaFX, real-time data synchronization, and automated reminders to enhance productivity.
+An advanced **Task Management System** built with **Java, MySQL, Spring Boot, JDBC, and JavaFX**, designed to help students track assignments, set deadlines, and monitor progress efficiently. This project is **continuously evolving**, incorporating new features to enhance productivity and user experience.
 
-Key Features
-Task Creation & Management
+**Features**
 
-Add, update, and delete tasks with detailed information (title, description, due date, priority, and status).
-Categorize tasks based on priority levels (HIGH, MEDIUM, LOW) and track progress (PENDING, IN_PROGRESS, COMPLETED).
-Search and filter tasks based on priority, deadline, or status.
-Automated Reminders & Tracking
+**Task Creation & Management**
+- Add, update, and delete tasks with details (**title, description, due date, priority, and status**).
+- Categorize tasks by priority (**HIGH, MEDIUM, LOW**) and track status (**PENDING, IN_PROGRESS, COMPLETED**).
+- Search and filter tasks based on **priority, deadline, or status**.
 
-Receive automated deadline reminders to stay on top of tasks.
-Monitor overdue tasks and pending assignments.
-Real-time progress tracking through a dynamic dashboard.
-Database & Persistence
+**Automated Reminders & Tracking**
+- **Deadline alerts** to keep users on track.
+- Track **overdue and pending tasks**.
+- **Real-time progress updates** through a dynamic **JavaFX UI**.
 
-MySQL database integration ensures secure storage and retrieval of tasks.
-Uses JDBC and Spring Boot for efficient data handling and backend operations.
-User-Friendly JavaFX UI
+**Database & Persistence**
+- **MySQL integration** for secure task storage and retrieval.
+- **JDBC & Spring Boot** for efficient backend processing.
 
-Interactive dashboard displaying task insights and reports.
-Search and filter functionalities for better task management.
-Real-time updates with smooth UI transitions.
-Tech Stack
-Backend: Java, Spring Boot, JDBC
-Frontend: JavaFX
-Database: MySQL
-Future Improvements & Continuous Upgrades
-I am constantly improving this project, incorporating new features and refining the architecture. Planned updates include:
+**User-Friendly UI**
+- **Interactive JavaFX dashboard** with insights and reports.
+- **Live search & filter** functionalities.
+- **Real-time updates** with smooth UI transitions.
 
-Task categorization using AI for smart recommendations.
-Mobile integration for cross-platform accessibility.
-Team collaboration features for shared task management.
-Cloud-based synchronization for seamless multi-device access.
+**Tech Stack**
+ **Java** - Core programming language 
+ **Spring Boot** - Backend framework 
+ **JDBC** - Database connectivity 
+ **JavaFX** - UI development 
+ **MySQL** - Database management 
+
+**Future Enhancements**
+🔹 **AI-powered task categorization**  
+🔹 **Mobile app integration**  
+🔹 **Team collaboration features**  
+🔹 **Cloud-based synchronization**  
+
+**Connect with Me**
+asadmurad.com
