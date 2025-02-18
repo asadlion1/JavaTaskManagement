@@ -11,7 +11,7 @@ public class UserService {
 
 //    This is the contructor
     public UserService() {
-
+        this.users = new ArrayList<>();
     }
 
 
@@ -54,6 +54,8 @@ public class UserService {
 
 //    This gets all the tasks assigned to the user
     public List<Task> getUserTasks(int userId) {
+        User user = findUserById(userId);
+        return (user != null) ? user.getTask() : new ArrayList<>();
 
     }
 

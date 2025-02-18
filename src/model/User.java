@@ -3,6 +3,8 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+// Everything is documented by Asad Murad
+
 public class User {
     private int id;
     private String userName;
