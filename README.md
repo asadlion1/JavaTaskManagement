@@ -12,27 +12,4 @@ A simple and efficient **Task Management System** built in Java. This applicatio
 - **Priority Levels:** Categorize tasks into HIGH, MEDIUM, and LOW priority.
 - **Readable Output:** Human-readable representation of task details using toString.
 
-## Project Structure
-
-src/
-├── model/
-│   ├── Task.java
-│   ├── User.java
-├── service/
-│   ├── TaskService.java
-│   ├── UserService.java
-├── controller/
-│   ├── TaskController.java
-│   ├── AuthController.java
-├── dao/
-│   ├── TaskDao.java
-│   ├── UserDao.java
-├── utils/
-│   ├── Validator.java
-│   ├── Logger.java
-├── main/
-│   ├── App.java
-├── resources/
-│   ├── config.properties
-│   ├── schema.sql
 
